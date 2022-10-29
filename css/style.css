@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 18px;
+    background-color: #010001
+}
+*
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Меню */
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_logo{
+    margin-top: 50px;
+}
+
+.menu_1{
+    padding: 0;
+    margin-top: 35px;
+    
+}
+.menu_2{
+    padding: 0;
+    margin-top: 35px;
+}
+.menu_link{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;
+    color: #fff;
+}
+.menu_link_2{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;
+    color: #808080;
+}
+.last_menu_link{
+    margin-right: 0;
+}
+
+/* Фалкон - основная секция */
+
+.falcon{
+    height: 1200px;
+}
+.ttt{
+    position: relative;
+}
+.falcon_title{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 122px;
+    font-weight: normal;
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    z-index: 7;
+}
+
+.falcon_title_text{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 223px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    z-index: 5;
+    
+}
+.falcon_title_text:after{
+    display: block;
+    margin: 0 auto;
+    margin-top: 26px;
+    content: " ";
+    width: 1px;
+    height: 59px;
+    background-color: #fff;
+}
+
+.falcon_earce_img{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-66%);
+    margin-top: 380px;
+}
+
+/* Main - самая основная секция */
+
+.main{
+    position: relative;
+    height: 1800px;
+}
+.racet{
+    position: absolute;
+    margin-top: 40px;
+    right: 103px;
+}
+.overview{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 90px;
+}
+.betta{
+    display: flex;
+    justify-content:flex-start;
+}
+.overview_title{
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 45px;
+
+}
+.ovrview_link{
+    color: #fff;
+    list-style-type: none;
+    margin-bottom: 11px;
+}
+
+.unmatch{
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 125px;
+}
+
+.unmatch_title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+.unmatch_text{
+    margin-top: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #fff;
+}
+
+/* Ангара */
+.angara{
+    position: relative;
+    height: 1400px;
+}
+.angara_img{
+    width: 50%;
+    height: 50%;
+    
+
+}
+.angara_img_1{
+    width: 50%;
+    height: 50%;
+    margin-left: 120px;
+}
+.angara_inf{
+    position: absolute;
+    top: 600px;
+    right: 300px;
+
+}
+.angara_putin{
+    width: 30%;
+    height: 30%;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+.angara_putin_1{
+    width: 70%;
+    height: 70%;
+}
+.angara_inf .angara_title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.angara_inf .angara_text{
+    font-style: 18px;
+    font-weight: 400;
+    color:#fff;
+    line-height: 1.7;
+}
+span{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Футер */
+
+footer{
+    height: 247px;
+    padding: 90px 0 131px 0;
+}
+
+.footer_icon{
+    margin-left: 549px;
+}
+
+
+.footer_link{
+    display: flex;
+    justify-content: center;
+    margin-top: 43px;
+}
+
+.footer_text{
+    font-size: 18px;
+    font-weight: normal;
+    color: #808080;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+.footer_btn{
+    margin-top: 30px;
+    margin-left: 477px;
+}
+
+.footer_btn .button1{
+    width: 260px;
+    height: 60px;
+    border: solid 2px #fff;
+    background-color: #010001;
+    border-radius:6px;
+
+    font-weight: 400;
+    font-size: 18px;
+    color:#fff;
+    transition: 0.3s;
+}
+
+.footer_btn .button1:hover{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fa0000;
+}
+
+
